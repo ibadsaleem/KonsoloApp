@@ -11,15 +11,17 @@ import AchieveProgressMyJournal from './src/Screens/AchieveProgressMyJournal';
 import AchieveProgressIteration from './src/Screens/AchieveProgressIterationScreen';
 import AchievePause from './src/Screens/AchievePauseStreak';
 import AchieveStart from './src/Screens/AchieveStartStreak';
-import StreakPaused from './src/Screens/StreakPaused';
-import StreakStarted from './src/Screens/StreakStarted';
-import StartOver from './src/Screens/StartOver';
+import StreakPaused from './src/Screens/AchieveStreakPaused';
+import StreakStarted from './src/Screens/AchieveStreakStarted';
+import StartOver from './src/Screens/AchieveStartOver';
+import AchieveDeepWork from './src/Screens/AchieveDeepWorkMode';
 
 const App= () => {
 
   return (
     <View >
       {/* <ProgScreen/> */}
+      <AchieveDeepWork/>
       {/* <AchievePause/> */}
       {/* <AchieveStart/> */}
       {/* <StreakPaused/> */}
