@@ -15,13 +15,15 @@ import StreakPaused from './src/Screens/AchieveStreakPaused';
 import StreakStarted from './src/Screens/AchieveStreakStarted';
 import StartOver from './src/Screens/AchieveStartOver';
 import AchieveDeepWork from './src/Screens/AchieveDeepWorkMode';
-
+import AchieveDailyWork from './src/Screens/AchieveProgressDailyProductivity';
+import ModalCheck from './src/Screens/ModalCheck.js';
 const App= () => {
 
   return (
     <View >
       {/* <ProgScreen/> */}
-      <AchieveDeepWork/>
+      {/* <AchieveDeepWork/> */}
+      {/* <AchieveDailyWork/> */}
       {/* <AchievePause/> */}
       {/* <AchieveStart/> */}
       {/* <StreakPaused/> */}
@@ -32,6 +34,7 @@ const App= () => {
       {/* <AchieveScreen/> */}
       {/* <AchieveProgressMyJournal/> */}
       {/* <AchieveProgressIteration/> */}
+      <ModalCheck/>
     </View>
   );
 };
